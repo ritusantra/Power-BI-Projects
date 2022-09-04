@@ -1,5 +1,5 @@
 
-## Retail Analytics for an Online Retail Store
+## Retail Analytics for an Online Retail Store (In Progress)
 
 ### Overview
 * Created a retail analytics dashboard to analyse the revenue trend and sales trends of an online retail store.
