@@ -1,4 +1,8 @@
 
 ## Retail Analytics
 
-## Steps
+### Data Cleaning
+
+### Data Visualization
+
+### Key Insights
