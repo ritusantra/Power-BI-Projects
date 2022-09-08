@@ -1,5 +1,7 @@
 
-## Retail Analytics for an Online Retail Store (In Progress)
+## Retail Analytics for an Online Retail Store
+
+(Power BI Link)[https://app.powerbi.com/view?r=eyJrIjoiZjkxZTk3MjUtYjRkNC00YTBlLWJiNzYtM2I2YzhhMWU4OWMyIiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9]
 
 ### Overview
 * Created a retail analytics dashboard to analyse the revenue trend and sales trends of an online retail store.
