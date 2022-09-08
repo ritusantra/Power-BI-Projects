@@ -1,5 +1,7 @@
 ## Employees Attendance Analysis
 
+[Power BI Link](https://app.powerbi.com/view?r=eyJrIjoiMzBjNmUyNjQtZDQzZi00MzY4LTkwZWYtOTEyZWMyY2MyM2EzIiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9)
+
 Created a dashboard to analyse employees attendance. Created DAX measures and calculated columns in order to analyse the percentage of presence, work from home (WFH) and sick leave (SL). Presented the key trends in form of Area Chart, Table and Matrix. 
 
 ### Data Cleaning and manipulation
