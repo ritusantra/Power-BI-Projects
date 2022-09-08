@@ -13,17 +13,51 @@
 
 ### DAX Measures and Calculated Columns
 
-<b>Calculated Columns</b>
-* <b>WFH Count<\b> -> WFH Count = SWITCH(TRUE(), 
+**Calculated Columns**
+
+* **WFH Count** 
+WFH Count = SWITCH(TRUE(), 
                       'Final Data'[Value]="WFH", 1,
                       'Final Data'[Value]="HWFH",0.5,
                       0)
-* <b>SL Count<\b> - 
-* <b>Month<\b> ->
-* <b>Day of Week<\b> -> Day of the Week = FORMAT('Final Data'[Date],"ddd")
+* **SL Count** 
+SL Count = SWITCH(TRUE(),
+                      'Final Data'[Value] = "SL",1,
+                      'Final Data'[Value] = "HSL",0.5,
+                      0)
+* **Month**
+Month = STARTOFMONTH('Final Data'[Date])
 
-<b>Measures</b>
+* **Day of Week**
+Day of the Week = FORMAT('Final Data'[Date],"ddd")
 
+**Measures**
+
+* **Total Working Days**
+Total Working Days = 
+VAR total_days = COUNT('Final Data'[Value])
+VAR total_nonworking_days = CALCULATE(COUNT('Final Data'[Value]),'Final Data'[Value] in {"WO","HO"})
+RETURN total_days - total_nonworking_days
+
+* **Present Attendence**
+Present Attendence = 
+VAR presentdays = CALCULATE(COUNT('Final Data'[Value]),'Final Data'[Value]="P")
+RETURN presentdays + [WFH Count]
+
+* **WFH Count**
+WFH Count = SUM('Final Data'[WFH Count])
+
+* **SL Count**
+SL Count = SUM('Final Data'[SL Count])
+
+* **Presence %**
+Presence % = DIVIDE([Present Attendence],[Total Working Days],0)
+
+* **SL %**
+SL % = DIVIDE([SL Count],[Total Working Days],0)
+
+* **WFH % *
+WFH % = DIVIDE([WFH Count],[Present Attendence],0)
 
 ### Data Visualization
 
