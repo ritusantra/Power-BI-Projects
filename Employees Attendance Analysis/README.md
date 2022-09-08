@@ -28,35 +28,35 @@ SL Count = SWITCH(TRUE(),
 * **Month**
 Month = STARTOFMONTH('Final Data'[Date])
 
-* **Day of Week**
+* **Day of Week**<br>
 Day of the Week = FORMAT('Final Data'[Date],"ddd")
 
 **Measures**
 
-* **Total Working Days**
+* **Total Working Days**<br>
 Total Working Days = 
 VAR total_days = COUNT('Final Data'[Value])
 VAR total_nonworking_days = CALCULATE(COUNT('Final Data'[Value]),'Final Data'[Value] in {"WO","HO"})
 RETURN total_days - total_nonworking_days
 
-* **Present Attendence**
+* **Present Attendence**<br>
 Present Attendence = 
 VAR presentdays = CALCULATE(COUNT('Final Data'[Value]),'Final Data'[Value]="P")
 RETURN presentdays + [WFH Count]
 
-* **WFH Count**
+* **WFH Count**<br>
 WFH Count = SUM('Final Data'[WFH Count])
 
-* **SL Count**
+* **SL Count**<br>
 SL Count = SUM('Final Data'[SL Count])
 
-* **Presence %**
+* **Presence %**<br>
 Presence % = DIVIDE([Present Attendence],[Total Working Days],0)
 
-* **SL %**
+* **SL %**<br>
 SL % = DIVIDE([SL Count],[Total Working Days],0)
 
-* **WFH % *
+* **WFH %**<br>
 WFH % = DIVIDE([WFH Count],[Present Attendence],0)
 
 ### Data Visualization
