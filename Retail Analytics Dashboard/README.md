@@ -16,6 +16,15 @@ To draft the relevant analytics and insights that would help evaluate the curren
 
 ### Data Cleaning
 
+* Applied filter in **Quantity** column to filter out the values greater than or equal to 1.
+* Applied filter in **UnitPrice** column to filter out only the values above 0.
+* Removed null values of **CustomerID**.
+
+### Calculated Column
+
+Added calculated column **Revenue**<br>
+Revenue = 'Online Retail'[Quantity]*'Online Retail'[UnitPrice] 
+
 ### Data Visualization
 
-### Key Insights
+Based on the data, visualizations were created to represent the key insights in the form of clustered bar charts, clustered column charts, line charts, and maps.
