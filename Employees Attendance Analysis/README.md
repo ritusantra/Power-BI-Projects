@@ -15,17 +15,17 @@
 
 **Calculated Columns**
 
-* **WFH Count** 
+* **WFH Count** <br>
 WFH Count = SWITCH(TRUE(), 
                       'Final Data'[Value]="WFH", 1,
                       'Final Data'[Value]="HWFH",0.5,
                       0)
-* **SL Count** 
+* **SL Count**<br> 
 SL Count = SWITCH(TRUE(),
                       'Final Data'[Value] = "SL",1,
                       'Final Data'[Value] = "HSL",0.5,
                       0)
-* **Month**
+* **Month**<br>
 Month = STARTOFMONTH('Final Data'[Date])
 
 * **Day of Week**<br>
