@@ -61,3 +61,4 @@ WFH % = DIVIDE([WFH Count],[Present Attendence],0)
 
 ### Data Visualization
 
+Created Area Chart, Table and Matrix to present the key trends in the data in form of dashboard.
