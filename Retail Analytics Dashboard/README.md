@@ -1,5 +1,5 @@
 
-## Retail Analytics for an Online Retail Store
+## Retail Analytics for an Online Retail Store 🛒📊
 
 [Power BI Link](https://app.powerbi.com/view?r=eyJrIjoiZjkxZTk3MjUtYjRkNC00YTBlLWJiNzYtM2I2YzhhMWU4OWMyIiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9)
 
