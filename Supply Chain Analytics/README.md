@@ -1,6 +1,12 @@
 # Supply Chain Analytics
 
-[Live Dashboard Link](https://app.powerbi.com/view?r=eyJrIjoiY2YyZjYzMWMtYzU5OC00NjdhLTk0NTgtYWFjZjgxN2I5ZTg5IiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9)
+## Table of Content
+* [Introduction](#introduction)
+* [Methodology](#methodology)
+* [Data Cleansing and Manipulation](#data-cleansing-and-manipulation)
+* [DAX Measures and Calculated Columns]()
+* [Insights](#insights)
+* [Live Dashboard Link](https://app.powerbi.com/view?r=eyJrIjoiY2YyZjYzMWMtYzU5OC00NjdhLTk0NTgtYWFjZjgxN2I5ZTg5IiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9)
 
 ## Introduction
 The purpose of this dashboard is to provide a comprehensive view of the entire supply chain by merging data from various sources, including Revenue, Warehousing, and Product-related information.
@@ -10,7 +16,7 @@ The purpose of this dashboard is to provide a comprehensive view of the entire s
 * Defined KPIs based on Revenue, Warehouse and Products using DAX.
 * Created visuals to present the insights from data.
 
-## Data Preprocessing
+## Data Cleansing and Manipulation
 
 ## DAX Measures and Calculated Columns
 
