@@ -4,7 +4,7 @@
 * [Introduction](#introduction)
 * [Methodology](#methodology)
 * [Data Cleansing and Manipulation](#data-cleansing-and-manipulation)
-* [DAX Measures and Calculated Columns]()
+* [DAX Measures and Calculated Columns](#dax-measures-and-calculated-columns)
 * [Insights](#insights)
 * [Live Dashboard Link](https://app.powerbi.com/view?r=eyJrIjoiY2YyZjYzMWMtYzU5OC00NjdhLTk0NTgtYWFjZjgxN2I5ZTg5IiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9)
 
