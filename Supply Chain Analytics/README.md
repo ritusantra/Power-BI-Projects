@@ -2,6 +2,7 @@
 
 ## Table of Content
 * [Introduction](#introduction)
+* [Tools](#tools)
 * [Methodology](#methodology)
 * [Data Cleansing and Manipulation](#data-cleansing-and-manipulation)
 * [DAX Measures and Calculated Columns](#dax-measures-and-calculated-columns)
@@ -11,8 +12,11 @@
 ## Introduction
 The purpose of this dashboard is to provide a comprehensive view of the entire supply chain by merging data from various sources, including Revenue, Warehousing, and Product-related information.
 
+## Tools
+* Microsoft Power BI
+
 ## Methodology
-* Data cleaning and manipulation was performed on the data.
+* Data cleaning and manipulation was performed on the data in the Power Query.
 * Defined KPIs based on Revenue, Warehouse and Products using DAX.
 * Created visuals to present the insights from data.
 
