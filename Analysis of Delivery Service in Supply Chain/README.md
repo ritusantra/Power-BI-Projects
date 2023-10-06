@@ -8,7 +8,7 @@
 * [Data Cleansing and Manipulation](#data-cleansing-and-manipulation)
 * [DAX Measures and Calculated Columns](#dax-measures-and-calculated-columns)
 * [Insights](#insights)
-* [Live Dashboard Link]()
+* [Live Dashboard Link](https://app.powerbi.com/view?r=eyJrIjoiYmY5M2IxMzYtMDI3Yy00ODM4LWFkMWUtNmQzMjQzNzczYzI5IiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9)
 
 ## Introduction
 
