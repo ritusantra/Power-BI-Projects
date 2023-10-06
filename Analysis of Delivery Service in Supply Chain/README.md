@@ -11,8 +11,7 @@
 * [Live Dashboard Link](https://app.powerbi.com/view?r=eyJrIjoiYmY5M2IxMzYtMDI3Yy00ODM4LWFkMWUtNmQzMjQzNzczYzI5IiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9)
 
 ## Introduction
-
-
+Developed an interactive report to track the delivery service level of a supply chain by analyzing key metrics against the target service level for each customer. Performed data cleaning and manipulation on over 50,000 records of data at both the order line and order level. This involved handling missing values, filtering data, changing data types, and addressing data redundancy using Power Query. Created measures using DAX to calculate the metrics. Analyzed the data and created visualizations to present the insights.
 
 ## Entity Relationship Diagram
 
@@ -24,7 +23,7 @@
 * Microsoft Power BI
 
 ## Methodology
-* Data 
+*  
 * Created visuals to present the insights from data.
 
 ## Data Cleansing and Manipulation
