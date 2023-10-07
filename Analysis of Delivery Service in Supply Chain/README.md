@@ -8,6 +8,10 @@
 * [Data Cleansing and Manipulation](#data-cleansing-and-manipulation)
 * [DAX Measures](#dax-measures)
 * [Insights](#insights)
+    * [KPI Analysis](#kpi-analysis)
+    * [Customer Analysis](#customer-analysis)
+    * [Product Analysis](#product-analysis)
+    * [City Analysis](#city-analysis)
 * [Live Dashboard Link](https://app.powerbi.com/view?r=eyJrIjoiYmY5M2IxMzYtMDI3Yy00ODM4LWFkMWUtNmQzMjQzNzczYzI5IiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9)
 
 ## Introduction
