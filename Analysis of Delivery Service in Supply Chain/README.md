@@ -6,7 +6,7 @@
 * [Tools](#tools)
 * [Methodology](#methodology)
 * [Data Cleansing and Manipulation](#data-cleansing-and-manipulation)
-* [DAX Measures and Calculated Columns](#dax-measures-and-calculated-columns)
+* [DAX Measures](#dax-measures)
 * [Insights](#insights)
 * [Live Dashboard Link](https://app.powerbi.com/view?r=eyJrIjoiYmY5M2IxMzYtMDI3Yy00ODM4LWFkMWUtNmQzMjQzNzczYzI5IiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9)
 
@@ -23,16 +23,19 @@ Developed an interactive report to track the delivery service level of a supply 
 * Microsoft Power BI
 
 ## Methodology
-*  
-* Created visuals to present the insights from data.
+* Data cleaning and manipulation were performed in the Power Query.
+* Created data model and built relationships between fact and dimension tables
+* Created measures using DAX to calculate the performance metrics - OT%, I%, OTIF%, LIFR%, VOFR%, Total Quantity Ordered,
+Total Orders, Total Line Orders, Total Quantity Delivered, Total Quantity Undelivered
+* Visualized the data in the form of an interactive report to present the insights
 
 ## Data Cleansing and Manipulation
+* Removed duplicate records from the customer table at the source CSV file
+* Handled data redundancy by renaming the category of product to its correct form
+
+### DAX Measures and Calculated Columns
 
 
-## DAX Measures and Calculated Columns
-
-
-### Measures
 
 ## Insights
 
