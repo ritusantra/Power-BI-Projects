@@ -37,6 +37,29 @@ Total Orders, Total Line Orders, Total Quantity Delivered, Total Quantity Undeli
 * Handled data redundancy by renaming the category of product to its correct form
 
 ## DAX Measures
+* Total Line Orders = COUNT('Order Lines'[Order ID])
+* Total Orders = COUNT('Orders Aggregate'[Order ID])
+* Total Quantity Delivered = SUM('Order Lines'[delivery_qty])
+* Total Quantity Ordered = SUM('Order Lines'[order_qty])
+* Total Quantity Undelivered = [Total Quantity Ordered] - [Total Quantity Delivered]
+* IF % = 
+VAR Full_quantity = CALCULATE(COUNT('Orders Aggregate'[Order ID]), 'Orders Aggregate'[In Full] = 1)
+RETURN Full_quantity /[Total Orders]
+* OT % =
+VAR On_Time = CALCULATE(COUNT('Orders Aggregate'[Order ID]),'Orders Aggregate'[On Time] = 1)
+RETURN On_Time/[Total Orders] 
+* OTIF % = 
+VAR otif = CALCULATE(COUNT('Orders Aggregate'[Order ID]),'Orders Aggregate'[In Full]=1, 'Orders Aggregate'[On Time] = 1)
+RETURN otif/[Total Orders] 
+* LIFR % =
+VAR lif = CALCULATE(COUNT('Order Lines'[In Full]),'Order Lines'[In Full]=1)
+RETURN lif/[Total Line Orders]
+* Gap in IF % = [Target IF %] - [IF %]
+* Gap in OT % = [Target OT %] - [OT %]
+* Gap in OTIF % = [Target OTIF %] - [OTIF %]
+* Target IF % = AVERAGE('Customer and Target'[In Full Target%])/100
+* Target OT % = AVERAGE('Customer and Target'[On Time Target%])/100
+* Target OTIF % = AVERAGE('Customer and Target'[OTIF Target%])/100
 
 
 
