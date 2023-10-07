@@ -11,19 +11,17 @@
 * [Live Dashboard Link](https://app.powerbi.com/view?r=eyJrIjoiYmY5M2IxMzYtMDI3Yy00ODM4LWFkMWUtNmQzMjQzNzczYzI5IiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9)
 
 ## Introduction
-Developed an interactive report to track the delivery service level of a supply chain by analyzing key metrics against the target service level for each customer. Performed data cleaning and manipulation on over 50,000 records of data at both the order line and order level. This involved handling missing values, filtering data, changing data types, and addressing data redundancy using Power Query. Created measures using DAX to calculate the metrics. Analyzed the data and created visualizations to present the insights.
+Developed an interactive report for an organization to track the delivery service level of their supply chain by analyzing key metrics against the target service level for each customer.
 
 ## Entity Relationship Diagram
 
 ![image](https://github.com/ritusantra/Power-BI-Projects/assets/75059347/bf70f338-0576-4666-bfeb-d111885ee042)
 
-
-
 ## Tools
 * Microsoft Power BI
 
 ## Methodology
-* Data cleaning and manipulation were performed in the Power Query.
+* Data cleaning and manipulation were performed in the Power Query for 50,000+ records of data at both the order line and order level
 * Created data model and built relationships between fact and dimension tables
 * Created measures using DAX to calculate the performance metrics - OT%, I%, OTIF%, LIFR%, VOFR%, Total Quantity Ordered,
 Total Orders, Total Line Orders, Total Quantity Delivered, Total Quantity Undelivered
@@ -31,9 +29,10 @@ Total Orders, Total Line Orders, Total Quantity Delivered, Total Quantity Undeli
 
 ## Data Cleansing and Manipulation
 * Removed duplicate records from the customer table at the source CSV file
+* Modified the data types
 * Handled data redundancy by renaming the category of product to its correct form
 
-### DAX Measures and Calculated Columns
+## DAX Measures
 
 
 
