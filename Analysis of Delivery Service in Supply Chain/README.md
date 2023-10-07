@@ -12,7 +12,7 @@
     * [Customer Analysis](#customer-analysis)
     * [Product Analysis](#product-analysis)
     * [City Analysis](#city-analysis)
-* [Live Dashboard Link](https://app.powerbi.com/view?r=eyJrIjoiYmY5M2IxMzYtMDI3Yy00ODM4LWFkMWUtNmQzMjQzNzczYzI5IiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9)
+* [Live Dashboard Link](https://app.powerbi.com/view?r=eyJrIjoiZWIxMThmNzItNTk5ZC00ODg1LTk0YzMtNzIwNzM4YTU0MjQ4IiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9)
 
 ## Introduction
 Developed an interactive report for an organization to track the delivery service level of their supply chain by analyzing key metrics against the target service level for each customer.
