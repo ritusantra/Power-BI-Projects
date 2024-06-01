@@ -15,7 +15,7 @@
 * [Live Dashboard Link](https://app.powerbi.com/view?r=eyJrIjoiZWIxMThmNzItNTk5ZC00ODg1LTk0YzMtNzIwNzM4YTU0MjQ4IiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9)
 
 ## Introduction
-Developed an interactive report for an organization to track the delivery service level of their supply chain by analyzing key metrics against the target service level for each customer.
+Developed an interactive report for an organization to track the delivery service level of their supply chain by analyzing key metrics against the target service level for each customer. [Data Source](https://codebasics.io/challenge/codebasics-resume-project-challenge/5)
 
 ## Entity Relationship Diagram
 
